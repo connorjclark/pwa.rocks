@@ -90,13 +90,13 @@ gulp.task('cache', ['copy'], () => {
 	];
 	const assetsHash = shortHash(assets);
 	const assetCacheList = [
-		'/',
+		'/pwa.rocks/',
 		...assets
 			// Remove all `images/icon-*` files except for the one used in
 			// the HTML.
 			.filter(path => !path.includes('images/icon-') || path.includes('icon-228x228.png'))
 			.map(path => path
-				.replace(/^dest\//, '/')),
+				.replace(/^dest\//, '/pwa.rocks/')),
 	];
 
 	gulp.src('dest/service-worker.js')
