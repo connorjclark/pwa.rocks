@@ -34,7 +34,7 @@
 			"type": "image/svg"
 		}
 	],
-	"start_url": ".",
+	"start_url": "https://connorjclark.github.io/pwa.rocks/index.html",
 	"theme_color": "#5ac1f2",
 	"background_color": "#383838"
 }
